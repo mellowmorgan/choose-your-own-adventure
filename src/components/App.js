@@ -1,13 +1,16 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import GameControl from "./GameControl"
 
 function App() {
   return (
     <Router>
-      <Header />
-      <Routes>
-        <Route exact path="/" element={<GameControl />} />
-      </Routes>
+      <Switch>
+        {/* <Route exact path="/" element={<GameControl />} /> */}
+        <Route path="/">
+          <GameControl />
+        </Route>
+      </Switch>
     </Router>
   );
 }
