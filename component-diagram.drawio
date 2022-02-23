@@ -1,0 +1,93 @@
+<mxfile host="65bd71144e">
+    <diagram id="2PceBsBGeETn1vluFlh7" name="Page-1">
+        <mxGraphModel dx="704" dy="1519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="-10" width="580" height="510" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="115" y="590" width="545" height="570" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="80" width="410" height="410" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Enter your name:" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="245" y="100" width="185" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Start your adventure!" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="245" y="170" width="185" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;h1&gt;&lt;span&gt;Choose Your Adventure&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="210" width="430" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="App.js" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="10" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Input" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="100" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Button" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="160" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="500" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Restart" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="540" y="15" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="190" y="240" width="320" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="GameControl.js" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="90" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="Scenario" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="277.5" y="270" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="220" y="370" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="370" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="Room.js" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="190" y="240" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="Option 1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="245" y="385" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="Option 2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="385" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="&lt;h1&gt;Haunted Mansion&lt;/h1&gt;&lt;h1&gt;&lt;div style=&quot;font-size: 12px ; font-weight: 400&quot;&gt;Room 1: Your aunt Dorothy's jewels have gone missing and there's been some spooky goings-on in her mansion in Massachusetts. When you arrive to investigate, she's gone!&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 12px ; font-weight: 400&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px ; font-weight: 400&quot;&gt;You're in the foyer, do&amp;nbsp;&lt;i&gt;you go up the attic, bedroom, dining room, basement&lt;/i&gt;?&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px ; font-weight: 400&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px ; font-weight: 400&quot;&gt;Attic: Helmet&lt;/div&gt;&lt;div style=&quot;font-size: 12px ; font-weight: 400&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px ; font-weight: 400&quot;&gt;Bedroom: Sleeping&lt;/div&gt;&lt;div style=&quot;font-size: 12px ; font-weight: 400&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px ; font-weight: 400&quot;&gt;Dining Room: Sandwich&lt;/div&gt;&lt;div style=&quot;font-size: 12px ; font-weight: 400&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px ; font-weight: 400&quot;&gt;Basement: Key to garden shed is in basement&lt;/div&gt;&lt;div style=&quot;font-size: 12px ; font-weight: 400&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px ; font-weight: 400&quot;&gt;Garden: Go to shed and use key to open (must have key)&lt;/div&gt;&lt;div style=&quot;font-size: 12px ; font-weight: 400&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px ; font-weight: 400&quot;&gt;Secret Room: Garden Shed&lt;/div&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="137.5" y="600" width="500" height="520" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="To win toolbox:&lt;br&gt;&lt;br&gt;- Helmet&lt;br&gt;- Key to shed&lt;br&gt;-set back up bootrap&lt;br&gt;&lt;br&gt;GameReducer:&lt;br&gt;&lt;br&gt;hasKey? default&lt;br&gt;hasHelmet? default&lt;br&gt;boobyTrapSet? default false&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;rooms are a collection&lt;br&gt;-library&lt;br&gt;rooms have options&lt;br&gt;-sketch boob trap" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="700" y="680" width="130" height="290" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="9VqOjbcC9ETRKH5QVAI_" name="Page-1">
+        <mxGraphModel dx="576" dy="343" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="80" width="460" height="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="170" y="110" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="300" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="App.js" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="420" y="170" width="60" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
