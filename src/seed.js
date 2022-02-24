@@ -17,20 +17,14 @@ export function seedDatabase(firebase) {
   });
   firebase.firestore().collection("rooms").doc("Dining Room").collection("options").add({
     content: "eat it",
-    consequence: "Die from e. coli.",
-    status: "lost",    
+    consequence: "Die from E. coli.",
+    status: "lost",
     nextRoom: null
   });
   firebase.firestore().collection("rooms").doc("Dining Room").collection("options").add({
     content: "follow the footsteps",
     consequence: null,
-    status: "playing",   
-    nextRoom: "Basement"
-  });
-  firebase.firestore().collection("rooms").doc("Dining Room").collection("options").add({
-    content: "follow the footsteps",
-    consequence: null,
-    status: "playing",    
+    status: "playing",
     nextRoom: "Basement"
   });
   firebase.firestore().collection('rooms').add({
@@ -40,13 +34,13 @@ export function seedDatabase(firebase) {
   firebase.firestore().collection("rooms").doc("Basement").collection("options").add({
     content: "leave the room",
     consequence: null,
-    status: "playing",    
+    status: "playing",
     nextRoom: null
   });
   firebase.firestore().collection("rooms").doc("Basement").collection("options").add({
     content: "investigate the washing machine",
     consequence: "found key",
-    status: "playing",    
+    status: "playing",
     nextRoom: null
   });
 }

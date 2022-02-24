@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+
 function Option(props){
   return(
     <React.Fragment>
@@ -8,8 +9,8 @@ function Option(props){
   )
 }
 Option.propTypes = {
- option: PropTypes.string,
- obj: PropTypes.object,
- optionClicked: PropTypes.func
+  option: PropTypes.string,
+  obj: PropTypes.object,
+  optionClicked: PropTypes.func
 }
 export default Option;
