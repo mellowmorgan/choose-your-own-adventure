@@ -22,31 +22,34 @@ class GameControl extends React.Component{
 
   }
   optionClicked = (id) => {
+    if (id instanceof Array){
+      console.log("we got array")
+      const obj = id[1]
+      const roomIn = id[0]
+      console.log(obj.consequence)
+      if (obj.status=="lost"){
+        alert("dead chump")
+      } 
+      else if (obj.status="won"){}
+      else if (!obj.consequence && obj.nextRoom){}
+          // this.setState({ selectedRoom: firestoreRoom.name, selectedScenario: firestoreRoom.scenario, id: firestoreRoom.id });
+    }
+    
+    else{
     this.props.firestore.get({ collection: 'rooms', doc: id }).then((room) => {
-      const firestoreRoom = {
+      const firestoreRoom = { 
         name: room.get("name"),
         scenario: room.get("scenario"),
         id: id
       };
-
-      //   let optionArray = [];
-      //   this.props.firestore.collection('rooms').doc(id).collection('options').get()
-      //     .then(response => {
-      //       response.forEach(document => {
-      //         optionArray.push(document)
-      //       });
-      //     })
-      // console.log("optionArray in GameControl",optionArray)
-
-      this.setState({ selectedRoom: firestoreRoom.name, selectedScenario: firestoreRoom.scenario, id: firestoreRoom.id });
+      
+        this.setState({ selectedRoom: firestoreRoom.name, selectedScenario: firestoreRoom.scenario, id: firestoreRoom.id });
+      
     })
-    //if dead (eat baloney sandwich option id)|| openshed no helmet || if you dont reset boobytrap and fight him with shears instead
-    //if helmet picked up -> reset that state property
-    //if key found -> reset that state property
-    //if still playing
-    //if won
-    //use id to get room or option now and feed that to Room.js in rerender
-    console.log(id)
+  }
+      
+
+  
 
   }
 

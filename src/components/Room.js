@@ -27,7 +27,7 @@ function Room(props){
         <p>{props.scenario}</p>
         <div>
           {rooms.map((room) => {
-            return <Option key={room.id} optionClicked={props.optionClicked} obj={room} option={room.name}/>
+            return <Option optionRoomId={null} key={room.id} optionClicked={props.optionClicked} obj={room} option={room.name}/>
           })}
         </div>
       </React.Fragment>
@@ -40,7 +40,7 @@ function Room(props){
         <p>{props.scenario}</p>
         <div>
           {roomOptions.map((option) => {
-            return <Option key={option.id} optionClicked={props.optionClicked} obj={option} option={option.content}/>
+            return <Option roomNameForOption={props.room} key={option.id} optionClicked={props.optionClicked} obj={option} option={option.content}/>
           })}
         </div>
       </React.Fragment>
